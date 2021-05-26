@@ -102,17 +102,17 @@ const ProductWrapper = styled.div`
     position: absolute;
     bottom: 0;
     right: 0;
-    border-radius: 0.5rem 0 0.5rem 0;
+    border-radius: 0.5rem 0 0 0;
     padding: 0.2rem 0.4rem;
     border: none;
     color: var(--mainWhite);
     background: var(--lightBlue);
     font-size: 1.4rem;
-    transform: translateY(100%);
+    transform: translate(100%, 100%);
     transition: all 0.5s linear;
   }
   .img-container:hover .cart-btn {
-    transform: translateY(0);
+    transform: translate(0, 0);
   }
   .cart-btn:hover {
     color: var(--mainBlue);
