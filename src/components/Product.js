@@ -86,7 +86,7 @@ const ProductWrapper = styled.div`
 
     .card-footer {
       background: var(--mainYellow);
-      font-weight: 900;
+      font-weight: 700;
     }
   }
   .img-container {
@@ -100,9 +100,9 @@ const ProductWrapper = styled.div`
   }
   .cart-btn {
     position: absolute;
-    bottom:;
+    bottom:0;
     right: 0;
-    border-radius: 0.5rem 0 0 0.5rem;
+    border-radius: 0.5rem 0 0 0;
     padding: 0.2rem 0.4rem;
     border: none;
     color: var(--mainWhite);
