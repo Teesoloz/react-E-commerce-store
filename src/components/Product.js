@@ -100,9 +100,9 @@ const ProductWrapper = styled.div`
   }
   .cart-btn {
     position: absolute;
-    bottom: 0;
+    bottom:;
     right: 0;
-    border-radius: 0.5rem 0 0 0;
+    border-radius: 0.5rem 0 0 0.5rem;
     padding: 0.2rem 0.4rem;
     border: none;
     color: var(--mainWhite);
